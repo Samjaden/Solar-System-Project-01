@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Uranus</title>
+    <link rel="stylesheet" type="text/css" href="static/uranus.css"/>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="menu" id="navbar">
+        <h2 class="title">The Solar System</h2>
+        <nav class="navs">
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#planets">Planets</a></li>
+                <li><a href="quiz.html">Quizz</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </div>
+    <section class="about1">
+        <div class="container">
+            
+            <div class="content">
+                <div class="image">
+                    <img src="images/up.png">
+                </div>
+            </div>
+            <div class="t">
+                <h2 class="t-text">Uranus<span class="nickname">THE BULL's EYE PLANET</span></h2>
+                <br>
+                <p>Uranus is the seventh planet from the Sun and is a gaseous cyan ice giant. Most of the planet is made of water, ammonia, and methane in a supercritical phase of matter, which in astronomy is called 'ice' or volatiles.
+            </div>
+            </div>
+    </section>
+
+    <section class="about2">
+        
+        <div class="content">
+
+            <div class="info-container">
+                <table class="info">
+                    <tr>
+                        <td><span>Planet Type</span></td>
+                        <td>Ice Giant</td>
+                    </tr>
+                    <tr>
+                        <td><span>One-way Light Time to Sun</span></td>
+                        <td>2.7 Hours</td>
+                    </tr>
+                    <tr>
+                        <td><span>Length of Year</span></td>
+                        <td>30,685 Earth Days</td>
+                    </tr>
+                    <tr>
+                        <td><span>Length of Day</span></td>
+                        <td>17h 14m</td>
+                    </tr>
+                    <tr>
+                        <td><span>Moons</span></td>
+                        <td>27</td>
+                    </tr>
+                    <tr>
+                        <td><span>Age</span></td>
+                        <td>4.503 billion years</td>
+                    </tr>
+                    <tr>
+                        <td><span>Density</span></td>
+                        <td>1.27 g/cm³</td>
+                    </tr>
+                    <tr>
+                        <td><span>Gravity</span></td>
+                        <td>8.69 m/s²</td>
+                    </tr>
+                    <tr>
+                        <td><span>Radius</span></td>
+                        <td>25,362 km</td>
+                    </tr>
+                    <tr>
+                        <td><span>Distance from Sun</span></td>
+                        <td>2.87 billion km</td>
+                    </tr>
+                    <tr>
+                        <td><span>Temperature <i class="fa fa-thermometer" style="font-size:36px"></i> </span></td>
+                        <td>
+                            -224°C (Annual Average)
+                            
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            
+            
+        </div>
+        <div class="image2">
+            
+    <div class="sun"></div>
+    <div class="uranus-outline">
+        <div class="uranus"></div>
+        
+    </div>
+    
+</div>
+        </div>
+    </section>
+    <div class="planets" id="planets">
+        <div class="celestial-body">
+            <p style="color: white;">Sun</p>
+            <a href="sun.html">
+                <img src="images/sun.png" alt="Sun">
+            </a>
+            <p class="image-guide">Click the image to learn more</p>
+        </div>
+        <div class="celestial-body">
+            <p style="color: white;">Mercury</p>
+            <a href="mercury.html">
+                <img src="images/mercuryv2.png" alt="Mercury">
+            </a>
+        </div>
+        <div class="celestial-body">
+            <p style="color: white;">Venus</p>
+            <a href="venus.html">
+                <img src="images/venus2.png" alt="Venus">
+            </a>
+        </div>
+        <div class="celestial-body">
+            <p style="color: white;">Earth</p>
+            <a href="earth.html">
+                <img src="images/earth.png" alt="Earth">
+            </a>
+        </div>
+        <div class="celestial-body">
+            <p style="color: white;">Mars</p>
+            <a href="mars.html">
+                <img src="images/mars1.png" alt="Mars">
+            </a>
+        </div>
+        <div class="celestial-body">
+            <p style="color: white;">Jupiter</p>
+            <a href="jupiter.html">
+                <img src="images/jupiter1.png" alt="Jupiter">
+            </a>
+        </div>
+        <div class="celestial-body">
+            <p style="color: white;">Saturn</p>
+            <a href="saturn.html">
+                <img src="images/saturn.png" alt="Saturn" style="width: 150px; height: 150px;">
+            </a>
+        </div>
+        <div class="celestial-body">
+            <p style="color: white;">Uranus</p>
+            <a href="uranus.html">
+                <img src="images/up.png" alt="Uranus">
+            </a>
+        </div>
+        <div class="celestial-body">
+            <p style="color: white;">Neptune</p>
+            <a href="neptune.html">
+                <img src="images/neptune.png" alt="Neptune">
+            </a>
+        </div>
+    </div>
+
+    <div class="content" id="content1">
+
+
+    </div>
+    
+    <script>
+
+        ScrollReveal({ 
+        reset: true,
+        distance: '60px',
+        duration: 2500,
+        delay: 300
+        });
+
+        ScrollReveal().reveal('.t-text',{ delay: 300, origin: 'left'});
+        ScrollReveal().reveal('.t',{ delay: 300, origin: 'left'});
+        ScrollReveal().reveal('.image',{ delay: 300, origin: 'right'});
+        ScrollReveal().reveal('.uranus-outline',{ delay: 300, origin: 'left'});
+        ScrollReveal().reveal('.sun',{ delay: 300, origin: 'left'});
+        
+const sr = ScrollReveal({ 
+    reset: true,
+    distance: '60px',
+    duration: 2500,
+    delay: 300
+});
+
+
+sr.reveal('.about2 .info', {
+    delay: 300,
+    origin: 'right',
+    
+});
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mars</title>
+    <link rel="stylesheet" type="text/css" href="static/mars.css"/>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="menu" id="navbar">
+        <h2 class="title">The Solar System</h2>
+        <nav class="navs">
+            <ul class="nav-links">
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#planets">Planets</a></li>
+                    <li><a href="quiz.html">Quizz</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+        </nav>
+    </div>
+    <section class="about1">
+        <div class="container">
+            
+            <div class="content">
+                <div class="image">
+                    <img src="images/mars1.png">
+                </div>
+            </div>
+            <div class="t">
+                <h2 class="t-text">Mars<span class="nickname">THE RED PLANET</span></h2>
+                <br>
+                <p>The fourth planet from the Sun, Mars, is a dusty, cold desert world with a very thin atmosphere. This dynamic planet has seasons, polar ice caps, extinct volcanoes, canyons, and weather. Mars is one of the most explored bodies in our solar system, and it's the only planet where we've sent rovers to roam the alien landscape. NASA missions have found lots of evidence that Mars was much wetter and warmer, with a thicker atmosphere, billions of years ago.
+                </p>
+            </div>
+            </div>
+    </section>
+
+    <section class="about2">
+        
+        <div class="content">
+
+            <div class="info-container">
+                <table class="info">
+                    <tr>
+                        <td><span>Planet Type</span></td>
+                        <td>Terrestrial</td>
+                    </tr>
+                    <tr>
+                        <td><span>One-way Light Time to Sun</span></td>
+                        <td>12.5 Mins</td>
+                    </tr>
+                    <tr>
+                        <td><span>Length of Year</span></td>
+                        <td>687 Earth Days</td>
+                    </tr>
+                    <tr>
+                        <td><span>Length of Day</span></td>
+                        <td>1d 0h 37m</td>
+                    </tr>
+                    <tr>
+                        <td><span>Moons</span></td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td><span>Age</span></td>
+                        <td>4.6 billion years</td>
+                    </tr>
+                    <tr>
+                        <td><span>Density</span></td>
+                        <td>3.9335 g/cm³</td>
+                    </tr>
+                    <tr>
+                        <td><span>Gravity</span></td>
+                        <td>8.87 m/s²</td>
+                    </tr>
+                    <tr>
+                        <td><span>Radius</span></td>
+                        <td>3,389.5 km</td>
+                    </tr>
+                    <tr>
+                        <td><span>Distance from Sun</span></td>
+                        <td>233.19 million km</td>
+                    </tr>
+                    <tr>
+                        <td><span>Temperature <i class="fa fa-thermometer" style="font-size:36px"></i> </span></td>
+                        <td>
+                            -62°C (Annual Average)
+                            
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            
+        </div>
+        <div class="image2">
+            
+    <div class="sun"></div>
+    <div class="mars-outline">
+        <div class="mars"></div>
+        
+    </div>
+    
+</div>
+        </div>
+    </section>
+
+    <div class="planets" id="planets">
+        <div class="celestial-body">
+            <p style="color: white;">Sun</p>
+            <a href="sun.html">
+                <img src="images/sun.png" alt="Sun">
+            </a>
+            <p class="image-guide">Click the image to learn more</p>
+        </div>
+        <div class="celestial-body">
+            <p style="color: white;">Mercury</p>
+            <a href="mercury.html">
+                <img src="images/mercuryv2.png" alt="Mercury">
+            </a>
+        </div>
+        <div class="celestial-body">
+            <p style="color: white;">Venus</p>
+            <a href="venus.html">
+                <img src="images/venus2.png" alt="Venus">
+            </a>
+        </div>
+        <div class="celestial-body">
+            <p style="color: white;">Earth</p>
+            <a href="earth.html">
+                <img src="images/earth.png" alt="Earth">
+            </a>
+        </div>
+        <div class="celestial-body">
+            <p style="color: white;">Mars</p>
+            <a href="mars.html">
+                <img src="images/mars1.png" alt="Mars">
+            </a>
+        </div>
+        <div class="celestial-body">
+            <p style="color: white;">Jupiter</p>
+            <a href="jupiter.html">
+                <img src="images/jupiter1.png" alt="Jupiter">
+            </a>
+        </div>
+        <div class="celestial-body">
+            <p style="color: white;">Saturn</p>
+            <a href="saturn.html">
+                <img src="images/saturn.png" alt="Saturn" style="width: 150px; height: 150px;">
+            </a>
+        </div>
+        <div class="celestial-body">
+            <p style="color: white;">Uranus</p>
+            <a href="uranus.html">
+                <img src="images/up.png" alt="Uranus">
+            </a>
+        </div>
+        <div class="celestial-body">
+            <p style="color: white;">Neptune</p>
+            <a href="neptune.html">
+                <img src="images/neptune.png" alt="Neptune">
+            </a>
+        </div>
+    </div>
+
+    <div class="content" id="content1">
+
+
+    </div>
+    <script>
+
+        ScrollReveal({ 
+        reset: true,
+        distance: '60px',
+        duration: 2000,
+        delay: 100
+        });
+
+        ScrollReveal().reveal('.t-text',{ delay: 300, origin: 'left'});
+        ScrollReveal().reveal('.t',{ delay: 300, origin: 'left'});
+        ScrollReveal().reveal('.image',{ delay: 300, origin: 'right'});
+        ScrollReveal().reveal('.mars-outline',{ delay: 300, origin: 'left'});
+        ScrollReveal().reveal('.sun',{ delay: 300, origin: 'left'});
+        
+const sr = ScrollReveal({ 
+    reset: true,
+    distance: '60px',
+    duration: 2500,
+    delay: 300
+});
+
+
+sr.reveal('.about2 .info', {
+    delay: 300,
+    origin: 'right',
+
+});
+
+    </script>
+</body>
+</html>
